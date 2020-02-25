@@ -2,4 +2,4 @@ cache/*
 cache/.
 cache
 connector.php.last_block
-node_urls.txt
+./node_urls.txt
