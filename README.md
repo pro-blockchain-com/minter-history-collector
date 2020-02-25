@@ -10,7 +10,7 @@ apt install php-cli
 ### Starting
 ```bash
 ./connector.php
-``
+```
 
 ### Crontab line
 
