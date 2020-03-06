@@ -12,6 +12,10 @@ apt install php-cli
 ./connector.php
 ```
 
+### Visualisation
+
+https://github.com/pro-blockchain-com/minter-history-collector
+
 ### Crontab line
 
 Add this line in /etc/crontab
