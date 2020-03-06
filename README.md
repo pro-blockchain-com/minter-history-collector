@@ -14,7 +14,7 @@ apt install php-cli
 
 ### Visualisation
 
-https://github.com/pro-blockchain-com/minter-history-collector
+https://github.com/pro-blockchain-com/minter-validators-www
 
 ### Crontab line
 
@@ -42,3 +42,8 @@ mkdir /z01/cache
 
 rm cache && ln -s /z01/cache cache
 ```
+
+
+### Support And Donating
+
+Mx88271f5025324b812894088e25b68ecf30d88888

@@ -12,7 +12,10 @@ $last_block = file_get_contents($file_lb);
 
 $time = time();
 
-while($time>(time()-59))
+if($argv[1]=="nolimit")$no_limit = 1;
+
+while($time>(time()-59) || $no_limit)
+//while($time>(time()-59))
 {
 $node_url = node_url();
 $kuda = $node_url."/status";
