@@ -6,7 +6,8 @@ $f = get_defined_functions();
 
 //print_r($f);die;
 
-$file_lb = __FILE__.".last_block";
+//$file_lb = __FILE__.".last_block";
+$file_lb = $cache_dir."/last_block";
 $last_block = file_get_contents($file_lb);
 
 $time = time();
@@ -62,6 +63,10 @@ print "\t".$file."\n";
 	    case "candidates":
 	    $kuda = $node_url."/$k?include_stakes";
 	    break;
+            case "validators":
+            $kuda = $node_url."/$k?perPage=255";
+            break;
+
 	    default:
 	    $kuda = $node_url."/$k";
 	}

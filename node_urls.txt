@@ -1,2 +1,3 @@
 # disabled line start with  #
-http://127.0.0.1:8841
+#http://127.0.0.1:8841
+https://node-main.minter.su
